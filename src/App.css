@@ -1,0 +1,172 @@
+/* .heading_container{
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+.heading{
+  margin:5px;
+  padding: 5px;
+  color:blue;
+} */
+
+.heading_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  padding: 20px;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  margin: 0;
+  padding: 10px 20px;
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/* 
+.searchbox{
+  margin: 50px auto;
+  padding: 10px;
+  display: flex;
+    width: fit-content;
+  align-items: center;
+  background-color: white;
+}
+.search{
+ border-radius: 12px;
+ padding: 5px;
+ font-size: 15px;
+   font-weight: 600;
+
+}
+.icon {
+  font-size: 20px;
+  color: gray;
+} */
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 40px auto;
+  padding: 10px 15px;
+  width: fit-content;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.searchbox input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 20px;
+  color: gray;
+}
+
+.weather-card {
+  margin: 20px auto;
+  padding: 25px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  border-radius: 15px;
+
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.city {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.temp {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.condition {
+  font-size: 20px;
+  color: #333;
+}
+
+.other{
+  display: flex;
+  justify-content: center;
+}
+.humidity{
+  margin: 15px;
+  padding: 25px;
+  border-radius: 10px;
+    background: linear-gradient(150deg, #7587d0, #ACB6E5);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+
+}
+.wind{
+  margin: 15px;
+  padding: 25px;
+  border-radius: 10px;
+    background: linear-gradient(150deg, #7587d0, #ACB6E5);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+
+}
+.feelslike{
+  margin: 15px;
+  padding: 25px;
+  border-radius: 10px;
+    background: linear-gradient(150deg, #7587d0, #ACB6E5);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+
+}
+.weekday{
+    display: flex;
+  flex-wrap: wrap;              /* 🔥 important */
+  justify-content: center;
+  gap: 15px; 
+
+}
+.weekday h3{
+  padding: 15px 20px;          /* 🔥 reduce kiya */
+  border-radius: 10px;
+
+  background: linear-gradient(150deg, #c775d0, #ACB6E5);
+  color: white;
+
+  font-size: 16px;
+  min-width: 80px;             /* same size feel */
+  text-align: center;
+}
+.sun{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sun p{
+  border-radius: 20px;
+    background: linear-gradient(135deg, #93c3ed, #32adb1);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+
+}
